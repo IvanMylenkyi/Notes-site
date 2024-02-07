@@ -1,2 +1,2 @@
-# Task_web-site
+Notes-site
 Simple project on Django - web-site with tasks
