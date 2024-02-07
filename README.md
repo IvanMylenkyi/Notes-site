@@ -40,6 +40,7 @@ python manage.py migrate
 ## Author
 
 Author: Ivan Mylenkyi
+
 Contact: mylenkyiivan@gmail.com
 
 ## License
