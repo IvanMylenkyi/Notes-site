@@ -7,31 +7,19 @@ This project is a simple web application that allows users to create, read, edit
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/ivanmylenkyi/notes-site.git
-
-css
-Copy code
+git clone https://github.com/IvanMylenkyi/notes-site.git
 
 2. Navigate to the project directory:
 
 cd notes-site
 
-arduino
-Copy code
-
 3. Install dependencies using pip:
 
 pip install -r requirements.txt
 
-css
-Copy code
-
 4. Apply migrations to create the database:
 
 python manage.py migrate
-
-vbnet
-Copy code
 
 ## Usage
 
