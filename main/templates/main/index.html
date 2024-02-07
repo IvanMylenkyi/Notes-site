@@ -1,0 +1,30 @@
+
+{% extends 'main/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1 class="text-center">Home page</h1>
+
+     
+     
+
+
+    <h3> Tasks:</h3>
+    {% if tasks %}
+    
+        {% for el in tasks %}
+            <div class="alert alert-dark mt-6" algin="center">
+                <h3>{{el.title}}</h3>
+                <p>{{el.task}}</p>
+                <a align="right" href="{% url 'tasks' el.id %}" class="btn btn-outline-primary" >More</a>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h6>You don`t have any tasks!</h6>
+    {% endif %}
+{% endblock %}
+

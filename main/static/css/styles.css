@@ -1,0 +1,17 @@
+.center {
+    text-align: center;
+  }
+.algin {
+    text-align: right;
+    }
+
+.long-text {
+      /* Делаем видиму границу блока и добавляем внутренний отступ */
+      /* Эти опции - необходимые условия */
+      overflow: hidden;
+      white-space: nowrap;
+    
+      /* Добавляем троеточия в конце предложения, если текст
+      не помещается в блок */
+      text-overflow: ellipsis;
+    }
